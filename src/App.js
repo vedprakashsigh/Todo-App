@@ -39,7 +39,7 @@ function App() {
       <div className="list">
         {todoList.map((tasks) => {
           return (
-            <div>
+            <div className="Task">
               {tasks.taskName}
               <button
                 onClick={() => {
