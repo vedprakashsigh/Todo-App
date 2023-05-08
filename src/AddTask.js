@@ -15,6 +15,7 @@ const AddTask = (props) => {
                 ? 1
                 : props.todoList[props.todoList.length - 1].id + 1,
             taskName: props.newTasks,
+            completed: false,
           };
           props.setTodoList([...props.todoList, task]);
         }}

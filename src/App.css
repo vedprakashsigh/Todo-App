@@ -35,7 +35,6 @@
 }
 
 .Task{
-  background-color: aqua;
   margin: 10px;
   height: max-content;
   width: 350px;
@@ -44,9 +43,4 @@
 .Task button{
   padding: 1px 3px;
   margin: 3px 10px;
-  background-color: yellowgreen;
-}
-
-.Task button:hover{
-background-color: red;
 }
